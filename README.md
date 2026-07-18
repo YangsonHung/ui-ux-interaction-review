@@ -1,4 +1,4 @@
-# 🎛️ UI/UX 交互逻辑与状态链审查专家
+# UI/UX 交互逻辑与状态链审查专家
 
 **中文** | [English](README.en.md)
 

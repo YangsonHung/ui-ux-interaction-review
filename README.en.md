@@ -1,4 +1,4 @@
-# 🎛️ UI/UX Interaction & State Chain Review Expert
+# UI/UX Interaction & State Chain Review Expert
 
 [中文](README.md) | **English**
 

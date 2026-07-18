@@ -1,4 +1,4 @@
-# 📝 Changelog
+# Changelog
 
 This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
 
@@ -7,7 +7,7 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) an
 ### Changed
 
 - Simplified README installation instructions to direct commands for the English and Chinese skills.
-- Added Emoji to document titles and section headings.
+- Added Emoji to README section headings.
 - Consolidated the contributing guide and changelog into English-only canonical documents.
 
 ### Planned

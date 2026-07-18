@@ -1,4 +1,4 @@
-# 🔒 安全策略 / Security Policy
+# 安全策略 / Security Policy
 
 本仓库是纯文档型 Agent 技能，不包含可执行服务、密钥或用户数据处理逻辑。
 
