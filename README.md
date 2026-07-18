@@ -19,14 +19,32 @@
 - 条件显隐、表单联动和状态设计评审
 - UI 截图、原型图或交互流程走查
 
-## 文件说明
+## 项目结构
 
-- [`SKILL.md`](SKILL.md)：中文技能定义，默认入口
-- [`SKILL.en.md`](SKILL.en.md)：英文技能定义
+```
+skills/
+├── en/
+│   └── ui-ux-interaction-review/
+│       └── SKILL.md
+└── zh-cn/
+    └── ui-ux-interaction-review-cn/
+        └── SKILL.md
+```
+
+- [`skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`](skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md)：中文技能定义，默认入口
+- [`skills/en/ui-ux-interaction-review/SKILL.md`](skills/en/ui-ux-interaction-review/SKILL.md)：英文技能定义
 
 ## 使用方式
 
-将 `SKILL.md` 放入你的 Codex、Claude Code 或其他兼容 Agent 的技能目录，并在 UI/UX 交互审查任务中启用它。
+将所需语言的技能目录复制到你的 Codex、Claude Code 或其他兼容 Agent 的技能目录：
+
+```bash
+# 中文版
+cp -r skills/zh-cn/ui-ux-interaction-review-cn ~/.codex/skills/
+
+# English version
+cp -r skills/en/ui-ux-interaction-review ~/.codex/skills/
+```
 
 ## 许可证
 

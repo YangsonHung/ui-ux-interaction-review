@@ -1,6 +1,6 @@
 ---
 name: ui-ux-interaction-review
-description: Expert skill for reviewing and restructuring UI/UX interaction components and state logic. Uses Human-Computer Interaction (HCI) System Thinking, First Principles, and State Machine Theory to diagnose ambiguous control ownership, state conflicts, missing feedback, and cognitive friction in interfaces, then outputs multi-tier optimization solutions. Proactively use this skill when the user shares a UI screenshot, wireframe, or component interaction description, or mentions "interaction logic," "state design," "toggle/tab/conditional UI," "UX optimization," or "design review" — even if they don't explicitly ask for a "review."
+description: Use when reviewing or restructuring UI/UX interaction components and state logic, especially for screenshots, wireframes, toggles, linked controls, conditional UI, or UX design reviews.
 ---
 
 # UI/UX Interaction & State Chain Review Expert

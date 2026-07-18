@@ -19,14 +19,32 @@ An AI-agent skill for reviewing UI/UX interactions. It treats interface behavior
 - Conditional visibility, linked forms, and state-design reviews
 - UI screenshots, wireframes, and interaction-flow critiques
 
-## Files
+## Project Structure
 
-- [`SKILL.md`](SKILL.md): Chinese skill definition and default entry point
-- [`SKILL.en.md`](SKILL.en.md): English skill definition
+```
+skills/
+├── en/
+│   └── ui-ux-interaction-review/
+│       └── SKILL.md
+└── zh-cn/
+    └── ui-ux-interaction-review-cn/
+        └── SKILL.md
+```
+
+- [`skills/en/ui-ux-interaction-review/SKILL.md`](skills/en/ui-ux-interaction-review/SKILL.md): English skill definition
+- [`skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`](skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md): Chinese skill definition and default entry point
 
 ## Usage
 
-Place `SKILL.md` in the skills directory of Codex, Claude Code, or another compatible agent, then enable it for UI/UX interaction-review tasks.
+Copy the desired language directory into the skills directory of Codex, Claude Code, or another compatible agent:
+
+```bash
+# English version
+cp -r skills/en/ui-ux-interaction-review ~/.codex/skills/
+
+# 中文版
+cp -r skills/zh-cn/ui-ux-interaction-review-cn ~/.codex/skills/
+```
 
 ## License
 
