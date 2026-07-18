@@ -1,0 +1,29 @@
+name: 功能建议 / Feature request
+description: 建议新增审查能力、案例或文档改进。
+title: "[Feature]: "
+labels:
+  - enhancement
+  - needs triage
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的问题 / Problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案 / Proposal
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: 影响语言 / Affected language
+      options:
+        - English
+        - 中文
+        - Both
+    validations:
+      required: true

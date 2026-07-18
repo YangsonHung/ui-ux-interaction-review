@@ -2,6 +2,8 @@
 
 [中文](README.md) | **English**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Skill](https://img.shields.io/badge/Agent%20Skill-UI%2FUX%20Review-1f6feb)](skills/en/ui-ux-interaction-review/SKILL.md)
+
 An AI-agent skill for reviewing UI/UX interactions. It treats interface behavior as state machines to identify ambiguous control ownership, state conflicts, missing feedback, and cognitive friction, then provides both best-experience and low-cost robust solutions.
 
 ## Capabilities
@@ -18,6 +20,16 @@ An AI-agent skill for reviewing UI/UX interactions. It treats interface behavior
 - Radio, checkbox, and nested selections
 - Conditional visibility, linked forms, and state-design reviews
 - UI screenshots, wireframes, and interaction-flow critiques
+
+## Quick Start
+
+After installing the English skill, give a compatible agent a UI screenshot, wireframe, or interaction description. You can also invoke it explicitly:
+
+```text
+$ui-ux-interaction-review Review the linked behavior between an auto/manual mode and a model list.
+```
+
+Every review includes a current diagnosis, a best-experience solution, a low-cost robust solution, and optional micro-interaction suggestions.
 
 ## Project Structure
 
@@ -45,6 +57,29 @@ cp -r skills/en/ui-ux-interaction-review ~/.codex/skills/
 # 中文版
 cp -r skills/zh-cn/ui-ux-interaction-review-cn ~/.codex/skills/
 ```
+
+## Scope
+
+- This skill focuses on interaction logic, state feedback, and cognitive friction; it does not replace visual brand design or usability testing.
+- Both the best-experience and low-cost solutions must explain state changes, control ownership, and feedback.
+- Base conclusions on the supplied UI, wireframe, or business rules. List open questions first when key information is absent.
+
+## Contributing
+
+Contributions that improve triggers, interaction examples, bilingual wording, or the output structure are welcome. Read these documents before submitting a change:
+
+- [Contribution Guide](CONTRIBUTING.en.md)
+- [Changelog](CHANGELOG.en.md)
+- [Security Policy](SECURITY.md)
+- [Maintainer Guide](AGENTS.md)
+
+Use the GitHub [issue templates](.github/ISSUE_TEMPLATE) to report defects or propose enhancements. Use the [pull request template](.github/PULL_REQUEST_TEMPLATE.md) when submitting code or documentation.
+
+## Roadmap
+
+- [ ] Add state-machine examples for common UI patterns
+- [ ] Add a reusable review checklist
+- [ ] Build a real-world interface case library
 
 ## License
 
