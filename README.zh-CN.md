@@ -43,7 +43,7 @@ skills/
         └── SKILL.md
 ```
 
-- [`skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`](skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md)：中文技能定义，默认入口
+- [`skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`](skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md)：中文技能定义
 - [`skills/en/ui-ux-interaction-review/SKILL.md`](skills/en/ui-ux-interaction-review/SKILL.md)：英文技能定义
 
 ## 📦 安装
