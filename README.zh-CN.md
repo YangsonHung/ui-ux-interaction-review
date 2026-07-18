@@ -79,12 +79,6 @@ npx skills add YangsonHung/ui-ux-interaction-review --skill ui-ux-interaction-re
 
 请通过 GitHub 的 [问题模板](.github/ISSUE_TEMPLATE) 报告缺陷或提出功能建议；提交代码时使用 [PR 模板](.github/PULL_REQUEST_TEMPLATE.md)。
 
-## 🛣️ 路线图
-
-- [ ] 补充常见 UI 模式的状态机示例
-- [ ] 增加可复用的审查清单
-- [ ] 建立真实界面案例库
-
 ## 📄 许可证
 
 本项目采用 [MIT License](LICENSE)。

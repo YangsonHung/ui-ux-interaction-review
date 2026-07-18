@@ -10,10 +10,7 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) an
 - Added Emoji to README section headings.
 - Consolidated the contributing guide and changelog into English-only canonical documents.
 - Made `README.md` the canonical English document and moved Chinese content to `README.zh-CN.md`.
-
-### Planned
-
-- Add state-machine examples and a review checklist.
+- Removed speculative roadmap items that were not backed by issues or milestones.
 
 ## [1.0.0] - 2026-07-18
 

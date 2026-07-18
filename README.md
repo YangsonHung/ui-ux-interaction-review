@@ -79,12 +79,6 @@ Contributions that improve triggers, interaction examples, bilingual wording, or
 
 Use the GitHub [issue templates](.github/ISSUE_TEMPLATE) to report defects or propose enhancements. Use the [pull request template](.github/PULL_REQUEST_TEMPLATE.md) when submitting code or documentation.
 
-## 🛣️ Roadmap
-
-- [ ] Add state-machine examples for common UI patterns
-- [ ] Add a reusable review checklist
-- [ ] Build a real-world interface case library
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
