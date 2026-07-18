@@ -1,5 +1,6 @@
 ---
 name: ui-ux-interaction-review-cn
+author: YangsonHung
 description: 当用户需要审查或重构 UI/UX 交互组件与状态逻辑，并提供 UI 截图、原型图、组件交互描述，或提到交互逻辑、状态设计、开关/Tab/联动、体验优化、设计走查、UI 审查时使用。
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: ui-ux-interaction-review
+author: YangsonHung
 description: Use when reviewing or restructuring UI/UX interaction components and state logic, especially for screenshots, wireframes, toggles, linked controls, conditional UI, or UX design reviews.
 ---
 
