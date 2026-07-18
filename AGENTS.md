@@ -4,7 +4,7 @@
 
 - `skills/en/ui-ux-interaction-review/SKILL.md`：英文技能。
 - `skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`：中文技能。
-- `README.md` 与 `README.en.md`：面向用户的双语说明，中文为默认入口。
+- `README.md` 与 `README.zh-CN.md`：面向用户的双语说明，英文为默认入口。
 - `CONTRIBUTING.md` 与 `CHANGELOG.md`：英文贡献指南与发布记录。
 
 ## Contribution Rules

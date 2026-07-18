@@ -9,6 +9,7 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) an
 - Simplified README installation instructions to direct commands for the English and Chinese skills.
 - Added Emoji to README section headings.
 - Consolidated the contributing guide and changelog into English-only canonical documents.
+- Made `README.md` the canonical English document and moved Chinese content to `README.zh-CN.md`.
 
 ### Planned
 
