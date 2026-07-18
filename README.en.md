@@ -48,7 +48,7 @@ skills/
 
 ## Installation
 
-Use the `skills` installer, following the approach used by [awesome-agent-skills](https://github.com/YangsonHung/awesome-agent-skills):
+Use the `skills` installer:
 
 ```bash
 # Install the English skill

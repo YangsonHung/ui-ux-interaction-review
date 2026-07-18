@@ -48,7 +48,7 @@ skills/
 
 ## 安装
 
-推荐使用与 [awesome-agent-skills](https://github.com/YangsonHung/awesome-agent-skills) 相同的 `skills` 安装器：
+推荐使用 `skills` 安装器：
 
 ```bash
 # 安装中文技能
