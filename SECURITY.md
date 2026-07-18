@@ -1,7 +1,7 @@
-# 安全策略 / Security Policy
+# Security Policy
 
-本仓库是纯文档型 Agent 技能，不包含可执行服务、密钥或用户数据处理逻辑。
+This repository contains documentation-only agent skills. It does not include executable services, credentials, or user-data processing logic.
 
-请不要在公开 Issue 中披露潜在安全问题、访问令牌、私有截图或敏感业务信息。请通过 GitHub 的私密安全报告功能提交安全问题；无法使用该功能时，请联系仓库所有者。
+Do not disclose potential security issues, access tokens, private screenshots, or sensitive business information in public issues. Report security concerns through GitHub private vulnerability reporting. If private reporting is unavailable, contact the repository owner directly.
 
-维护者会确认报告、评估影响，并在修复后通过更新日志公开说明处理结果。
+The maintainer will acknowledge the report, assess its impact, and document the resolution in the changelog after a fix is available.
