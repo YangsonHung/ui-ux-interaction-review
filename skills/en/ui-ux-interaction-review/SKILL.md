@@ -5,7 +5,7 @@ source: https://github.com/YangsonHung/ui-ux-interaction-review
 description: Use when reviewing or restructuring UI/UX interaction components and state logic, especially for screenshots, wireframes, toggles, linked controls, conditional UI, or UX design reviews.
 ---
 
-# UI/UX Interaction & State Chain Review Expert
+# 🎛️ UI/UX Interaction & State Chain Review Expert
 
 ## Overview
 

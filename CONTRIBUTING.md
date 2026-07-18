@@ -1,37 +1,37 @@
-# 贡献指南
+# 🤝 Contributing Guide
 
-感谢你帮助改进这个技能。所有贡献都应保持中英文版本的目标、触发范围和输出结构一致。
+Thank you for improving this skill. Keep the purpose, trigger coverage, and output structure aligned across the English and Chinese versions.
 
-## 可以贡献的内容
+## ✨ What to Contribute
 
-- 修正触发条件、审查流程或状态机分析逻辑
-- 补充匿名化的 UI/UX 交互案例
-- 改进中英文文案、示例和术语一致性
-- 完善安装、使用和维护文档
+- Fix triggers, review steps, or state-machine analysis logic
+- Add anonymized UI/UX interaction examples
+- Improve bilingual wording, examples, and terminology consistency
+- Improve installation, usage, or maintenance documentation
 
-## 提交流程
+## 🚀 Submission Process
 
-1. 创建聚焦单一问题的分支。
-2. 同步修改英文和中文 `SKILL.md`，不要只更新其中一种语言。
-3. 更新相关 README；面向用户的改动同时更新 [更新日志](CHANGELOG.md)。
-4. 运行以下检查：
+1. Create a branch focused on one concern.
+2. Update both `SKILL.md` variants; do not change only one language.
+3. Update the relevant README. User-facing changes also require a [changelog](CHANGELOG.md) entry.
+4. Run these checks:
 
    ```bash
    git diff --check
    rg -n -P '[\p{Han}]' skills/en
    ```
 
-5. 使用清晰的 Conventional Commit，例如 `docs: improve review output format`。
-6. 按 PR 模板说明改动、验证结果和影响范围。
+5. Use a clear Conventional Commit, such as `docs: improve review output format`.
+6. Use the pull request template to explain the change, validation, and scope.
 
-## 技能规范
+## 📐 Skill Conventions
 
-- 英文技能：`skills/en/ui-ux-interaction-review/SKILL.md`，`name` 为 `ui-ux-interaction-review`。
-- 中文技能：`skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`，`name` 为 `ui-ux-interaction-review-cn`。
-- 两个文件都保留 `author` 与 `source` 元数据。
-- `description` 聚焦触发场景；具体流程写在正文中。
-- 英文技能文件不包含中文字符。
+- English skill: `skills/en/ui-ux-interaction-review/SKILL.md`, with the name `ui-ux-interaction-review`.
+- Chinese skill: `skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`, with the name `ui-ux-interaction-review-cn`.
+- Both files retain the `author` and `source` metadata.
+- Keep `description` focused on activation conditions; put workflow details in the body.
+- The English skill file contains no Chinese characters.
 
-## 行为准则
+## 🧭 Code of Conduct
 
-请保持讨论尊重、具体且可执行。针对方案和事实提出意见，不针对个人。
+Keep discussion respectful, specific, and actionable. Discuss proposals and evidence, never people.

@@ -1,22 +1,24 @@
-# 更新日志
+# 📝 Changelog
 
-本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 的记录方式，并采用 [语义化版本](https://semver.org/lang/zh-CN/)。
+This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/).
 
-## [未发布]
+## [Unreleased]
 
-### 变更
+### Changed
 
-- README 改用 `skills` 安装器，并补充 Codex 与 Claude Code 的手动安装路径。
+- Simplified README installation instructions to direct commands for the English and Chinese skills.
+- Added Emoji to document titles and section headings.
+- Consolidated the contributing guide and changelog into English-only canonical documents.
 
-### 计划
+### Planned
 
-- 增加状态机示例与审查清单。
+- Add state-machine examples and a review checklist.
 
 ## [1.0.0] - 2026-07-18
 
-### 新增
+### Added
 
-- 中英文 UI/UX 交互逻辑与状态链审查技能。
-- 基于状态机的四步审查流程。
-- 最佳体验与低成本稳健两套输出方案。
-- 双语 README、贡献指南、Issue/PR 模板和安全策略。
+- English and Chinese UI/UX interaction and state-chain review skills.
+- A four-step, state-machine-based review process.
+- Best-experience and low-cost robust solution tracks.
+- Bilingual README files, contribution guides, issue and PR templates, and a security policy.
