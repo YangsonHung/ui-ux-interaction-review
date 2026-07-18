@@ -46,17 +46,41 @@ skills/
 - [`skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`](skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md)：中文技能定义，默认入口
 - [`skills/en/ui-ux-interaction-review/SKILL.md`](skills/en/ui-ux-interaction-review/SKILL.md)：英文技能定义
 
-## 使用方式
+## 安装
 
-将所需语言的技能目录复制到你的 Codex、Claude Code 或其他兼容 Agent 的技能目录：
+推荐使用与 [awesome-agent-skills](https://github.com/YangsonHung/awesome-agent-skills) 相同的 `skills` 安装器：
 
 ```bash
-# 中文版
-cp -r skills/zh-cn/ui-ux-interaction-review-cn ~/.codex/skills/
+# 安装中文技能
+npx skills add YangsonHung/ui-ux-interaction-review --skill ui-ux-interaction-review-cn
 
-# English version
-cp -r skills/en/ui-ux-interaction-review ~/.codex/skills/
+# 使用 pnpm
+pnpm dlx skills add YangsonHung/ui-ux-interaction-review --skill ui-ux-interaction-review-cn
 ```
+
+安装英文技能：
+
+```bash
+npx skills add YangsonHung/ui-ux-interaction-review --skill ui-ux-interaction-review
+```
+
+查看仓库内可安装的技能：
+
+```bash
+npx skills add YangsonHung/ui-ux-interaction-review --list
+```
+
+也可以手动安装：
+
+```bash
+# Codex：安装到用户级技能目录
+cp -r skills/zh-cn/ui-ux-interaction-review-cn ~/.agents/skills/
+
+# Claude Code：安装到用户级技能目录
+cp -r skills/zh-cn/ui-ux-interaction-review-cn ~/.claude/skills/
+```
+
+将命令中的 `ui-ux-interaction-review-cn` 替换为 `ui-ux-interaction-review` 即可安装英文版本。
 
 ## 使用边界
 

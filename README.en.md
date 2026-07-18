@@ -46,17 +46,41 @@ skills/
 - [`skills/en/ui-ux-interaction-review/SKILL.md`](skills/en/ui-ux-interaction-review/SKILL.md): English skill definition
 - [`skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`](skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md): Chinese skill definition and default entry point
 
-## Usage
+## Installation
 
-Copy the desired language directory into the skills directory of Codex, Claude Code, or another compatible agent:
+Use the `skills` installer, following the approach used by [awesome-agent-skills](https://github.com/YangsonHung/awesome-agent-skills):
 
 ```bash
-# English version
-cp -r skills/en/ui-ux-interaction-review ~/.codex/skills/
+# Install the English skill
+npx skills add YangsonHung/ui-ux-interaction-review --skill ui-ux-interaction-review
 
-# 中文版
-cp -r skills/zh-cn/ui-ux-interaction-review-cn ~/.codex/skills/
+# Using pnpm
+pnpm dlx skills add YangsonHung/ui-ux-interaction-review --skill ui-ux-interaction-review
 ```
+
+Install the Chinese skill:
+
+```bash
+npx skills add YangsonHung/ui-ux-interaction-review --skill ui-ux-interaction-review-cn
+```
+
+List the installable skills in this repository:
+
+```bash
+npx skills add YangsonHung/ui-ux-interaction-review --list
+```
+
+Manual installation is also available:
+
+```bash
+# Codex: user-level skills directory
+cp -r skills/en/ui-ux-interaction-review ~/.agents/skills/
+
+# Claude Code: user-level skills directory
+cp -r skills/en/ui-ux-interaction-review ~/.claude/skills/
+```
+
+Replace `ui-ux-interaction-review` with `ui-ux-interaction-review-cn` to install the Chinese version.
 
 ## Scope
 

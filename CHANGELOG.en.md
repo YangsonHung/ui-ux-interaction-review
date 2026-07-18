@@ -4,6 +4,10 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) an
 
 ## [Unreleased]
 
+### Changed
+
+- Updated README installation instructions to use the `skills` installer and documented manual paths for Codex and Claude Code.
+
 ### Planned
 
 - Add state-machine examples and a review checklist.
