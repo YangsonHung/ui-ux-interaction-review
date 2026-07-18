@@ -2,18 +2,18 @@
 
 ## Project Structure
 
-- `skills/en/ui-ux-interaction-review/SKILL.md`：英文技能。
-- `skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`：中文技能。
-- `README.md` 与 `README.zh-CN.md`：面向用户的双语说明，英文为默认入口。
-- `CONTRIBUTING.md` 与 `CHANGELOG.md`：英文贡献指南与发布记录。
+- `skills/en/ui-ux-interaction-review/SKILL.md`: English skill definition.
+- `skills/zh-cn/ui-ux-interaction-review-cn/SKILL.md`: Chinese skill definition.
+- `README.md` and `README.zh-CN.md`: Bilingual user documentation, with English as the default.
+- `CONTRIBUTING.md` and `CHANGELOG.md`: English contribution and release documentation.
 
 ## Contribution Rules
 
-- 中英文技能必须成对更新，并保持功能与输出结构一致。
-- 英文 `SKILL.md` 不得包含中文字符。
-- 修改用户可见行为时，更新双语 README 和更新日志。
-- 提交前执行 `git diff --check`，并检查所有 Markdown 相对链接。
+- Update the English and Chinese skills together, keeping their behavior and output structure aligned.
+- Do not include Chinese characters in the English `SKILL.md`.
+- Update both README files and the changelog for user-visible changes.
+- Run `git diff --check` and verify all relative Markdown links before committing.
 
 ## Commits
 
-使用 Conventional Commits，提交范围保持单一、可审查。
+Use Conventional Commits. Keep each commit focused and reviewable.
